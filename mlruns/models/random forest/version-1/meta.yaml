@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1714923351918
+current_stage: Production
+description: ''
+last_updated_timestamp: 1714923391146
+name: random forest
+run_id: db8a96fdec744211ab155adb6703c60b
+run_link: ''
+source: file:///d:/intern_pro/mlruns/501142815481220808/db8a96fdec744211ab155adb6703c60b/artifacts/best_estimator
+status: READY
+status_message: null
+storage_location: file:///d:/intern_pro/mlruns/501142815481220808/db8a96fdec744211ab155adb6703c60b/artifacts/best_estimator
+user_id: null
+version: 1

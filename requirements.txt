@@ -1,0 +1,12 @@
+pandas
+numpy
+nltk
+scikit-learn
+mlflow
+joblib
+ipykernel
+prefect
+streamlit
+matplotlib
+seaborn 
+plotly
