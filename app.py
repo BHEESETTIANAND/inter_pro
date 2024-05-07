@@ -37,7 +37,7 @@ elif f8=='Mashhad':
 elif f8=='Shiraz':
     f8='شیراز'
 elif f8=='Tabriz':
-    f8='تبریز;
+    f8='تبریز'
 elif f8=='Tehran':
     f8='تهران'
 else:
