@@ -25,9 +25,15 @@ Prefect, another ML Ops tool, has been incorporated for continued model training
 ## Streamlit Application 🌐
 An interactive Streamlit application has been developed to provide users with a user-friendly interface for making predictions using the trained models.
 
+#### Additionally, I have included a video showcasing the integration of MLflow and Prefect in another project, specifically a sentiment analysis application. This serves as a parallel example to demonstrate how similar integration methodologies have been applied in the current project.
 
 
 
+
+
+
+
+https://github.com/BHEESETTIANAND/inter_pro/assets/101445444/d5ca4a79-701a-4557-8aeb-14c505466363
 
 
 
