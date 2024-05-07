@@ -19,8 +19,8 @@ f4=st.number_input("enter your coupon discount if eliglble or else enter 0")
 f5=st.number_input("if your trip is domestic then enter 1 or else enter 0")
 f6=st.radio("select your trip reason",['Work', 'Int'])
 f7=st.radio("select the vehicle you are going to travel",['Plane', 'Bus', 'Train', 'InternationalPlane'])
-f8=st.radio("select the city from where your are travelling",['گرگان', 'مشهد', 'شیراز', 'تبریز', 'تهران', 'بروجرد'])
-f9=st.radio("select the city to which you are travelling",['گرگان', 'مشهد', 'شیراز', 'تبریز', 'تهران', 'بروجرد'])
+f8=st.radio("select the city from where your are travelling",['Gorgan','Mashhad','Shiraz','Tabriz','Tehran','Borujerd'])
+f9=st.radio("select the city to which you are travelling",['Gorgan','Mashhad','Shiraz','Tabriz','Tehran','Borujerd'])
 f10=st.number_input("no.of.days staying")
 f11=st.number_input("total count of travellers")
 f12=st.number_input("total no.of.tickets booked")
@@ -29,6 +29,33 @@ if f2=="True":
     f2=1
 else:
     f2=0
+
+if f8=='Gorgan':
+    f8='گرگان'
+elif f8=='Mashhad':
+    f8='مشهد'
+elif f8=='Shiraz':
+    f8='شیراز'
+elif f8=='Tabriz':
+    f8='تبریز;
+elif f8=='Tehran':
+    f8='تهران'
+else:
+    f8='بروجر'
+
+
+if f9=='Gorgan':
+    f9='گرگان'
+elif f9=='Mashhad':
+    f9='مشهد'
+elif f9=='Shiraz':
+    f9='شیراز'
+elif f9=='Tabriz':
+    f9='تبریز;
+elif f9=='Tehran':
+    f9='تهران'
+else:
+    f9='بروجر'
 
 f6=trip.transform([f6])[0]
 f7=veh.transform([f7])[0]
