@@ -1,3 +1,3 @@
 # inter_pro
 
-app_link:  https://ticketcancellationprediction.streamlit.app/
+app_link:  https://interpro.streamlit.app/
